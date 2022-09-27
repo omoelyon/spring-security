@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+!**/src/main/resources/certificate.p12
+/certificate.p12
+certificate.p12
