@@ -1,0 +1,16 @@
+spring:
+  ldap:
+    embedded:
+      ldif: classpath:server.ldif
+      base-dn: dc=springframework,dc=org
+      port: 33389
+#  datasource:
+#    password: <Termiidev1/>
+#    url: jdbc:mysql://localhost:3306/spring
+#    username: root
+#  sql:
+#    init:
+#      mode: always
+
+#  spring.ldap.embedded.ldif=classpath:server.ldif
+#  spring.ldap.embedded.base-dn=dc=springframework,dc=org spring.ldap.embedded.port=33389
